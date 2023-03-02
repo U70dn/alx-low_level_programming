@@ -1,10 +1,14 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_number - prints an integer.
- * @n: input integer.
- * Return: no return.
+ * print_number - print number
+ *
+ * @n: params an integer
+ *
+ * No return
  */
+
 void print_number(int n)
 {
 	unsigned int m, d, count;
@@ -19,8 +23,8 @@ void print_number(int n)
 		m = n;
 	}
 
-	d = m;
-	count = 1;
+		d = m;
+		count = 1;
 
 	while (d > 9)
 	{
