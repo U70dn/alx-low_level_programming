@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+C programming
+=======
 C - More functions, more nested loops
 0. isupper
 Write a function that checks for uppercase character.
@@ -71,3 +74,4 @@ You are not allowed to use long
 You are not allowed to use arrays or pointers
 You are not allowed to hard-code special values
 
+>>>>>>> 8dd969c108387ff3dcd40106a9f3f05c32c8a7c8
