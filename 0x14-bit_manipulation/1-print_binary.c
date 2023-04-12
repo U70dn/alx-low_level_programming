@@ -2,17 +2,17 @@
 
 /**
  * print_binary - prints the binary equivalent of a decimal number
- * @n:the  number to print in binary
+ * @num: the  number to print in binary
  */
 
-void print_binary(unsigned long int n)
+void print_binary(unsigned long int num)
 {
 	int i, count = 0;
 	unsigned long int current;
 
 	for (i = 63; i >= 0; i--)
 	{
-		current = number >> i;
+		current = num >> i;
 
 		if (current & 1)
 		{
